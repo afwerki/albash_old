@@ -24,8 +24,7 @@ function Hero2() {
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-        tenetur fuga ducimus numquam ea!
+      እኛ ለሻ የምናጠፋትን ብናጠራቅም የአንድ ህፃን የመኖር ተስፋውን እናለምንማለን።
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">

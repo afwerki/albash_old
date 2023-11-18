@@ -1,35 +1,59 @@
-import React from 'react';
+import React from "react";
 
-function Hero3() {
- return (
-    <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
-    <div class="container mx-auto px-6 flex relative py-16">
-        <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
-            <span class="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
-            </span>
-            <h1 class="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
-                Be on
-                <span class="text-5xl sm:text-7xl">
-                    Time
-                </span>
-            </h1>
-            <p class="text-sm sm:text-base text-gray-700 dark:text-white">
-                Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
+function Hero3(){
+    return(
+        <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+        <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+          <svg
+            className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
+            viewBox="0 0 100 100"
+            fill="currentColor"
+            preserveAspectRatio="none slice"
+          >
+            <path d="M50 0H100L50 100H0L50 0Z" />
+          </svg>
+          <img
+            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+            src="https://media.istockphoto.com/id/1634669289/photo/african-little-girls-during-the-class-east-africa.jpg?s=612x612&w=0&k=20&c=8ayH4aet6SMNlnLNQZiGnZlo3H0rog2aKF-JaxzuiHg="
+            alt=""
+          />
+        </div>
+        <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+          <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+              Brand new
             </p>
-            <div class="flex mt-8">
-                <a href="#" class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
-                    Get started
-                </a>
-                <a href="#" class="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md">
-                    Read more
-                </a>
+            <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            አልባሽ 
+              <br className="hidden md:block" />
+              ዋናው አላማችን {' '}
+              <span className="inline-block text-deep-purple-accent-400">
+              የቻልነውን ማድረግ ነው።
+              </span>
+            </h2>
+            <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+            እኛ ለሻ የምናጠፋትን ብናጠራቅም የአንድ ህፃን የመኖር ተስፋውን እናለምንማለን።
+            </p>
+            <div className="flex items-center">
+              <a
+                href="/"
+                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide bg-black text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              >
+                Get started
+              </a>
+              <a
+                href="/"
+                aria-label=""
+                className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+              >
+                Learn more
+              </a>
             </div>
+          </div>
         </div>
-        <div class="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-            <img src="https://www.tailwind-kit.com/images/object/10.png" class="max-w-xs md:max-w-sm m-auto"/>
-        </div>
-    </div>
-</div>
-)
+      </div>
+
+    )
 }
-export default Hero3
+
+export default Hero3;
