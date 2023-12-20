@@ -1,7 +1,8 @@
 import React from 'react';
-import { CheckIcon } from '@heroicons/react/outline';
+import { CheckIcon, AcademicCapIcon } from '@heroicons/react/outline';
 
-const AllInOne = () => {
+
+const Aim = () => {
   return (
     <div name='platforms' className='w-full my-32'>
       <div className='max-w-[1240px] mx-auto px-2'>
@@ -14,7 +15,7 @@ const AllInOne = () => {
 
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Promote Educational Equality:</h3>
@@ -25,7 +26,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Enhance Learning Experiences: </h3>
@@ -36,7 +37,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Bridge the Resource Gap: </h3>
@@ -47,7 +48,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Empower Educators: </h3>
@@ -58,7 +59,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Encourage Lifelong Learning: </h3>
@@ -69,7 +70,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Foster Creativity: </h3>
@@ -80,7 +81,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Support Remote Learning: </h3>
@@ -91,7 +92,7 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <AcademicCapIcon className='w-7 mr-4 text-green-600' />
             </div>
             <div>
               <h3 className='font-bold text-lg'>Build a Foundation for Success: </h3>
@@ -107,4 +108,4 @@ const AllInOne = () => {
   );
 };
 
-export default AllInOne;
+export default Aim;

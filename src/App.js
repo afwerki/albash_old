@@ -1,18 +1,21 @@
 import About from './components/About1';
-import AllInOne from './components/AllInOne';
+import Aim from './components/Aim';
 import Footer from './components/Footer';
 import Hero from './components/Hero3';
 import Navbar from './components/Navbar'
 import Contact from './components/Contact';
 import Support from './components/Support'
+import ReadMoreComponent from './components/ReadMoreComponent';
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <AllInOne />
+      <About/>
+      <Aim />
       <Support />
+      <ReadMoreComponent/>
       <Contact/>
 
   

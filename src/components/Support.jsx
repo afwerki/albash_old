@@ -4,7 +4,7 @@ import { PhoneIcon, ArrowSmRightIcon } from '@heroicons/react/outline';
 import {ChipIcon, SupportIcon} from '@heroicons/react/solid'
 
 import school_support from '../assets/school_support.JPG'
-import supportImg from '../assets/kids_in_school.jpeg'
+import supportImg from '../assets/two_girls_one_boy.jpeg'
 
 const Support = () => {
   return (
@@ -27,7 +27,12 @@ const Support = () => {
                   <div className='p-18'>
                       <img src={supportImg} className='w-31 p-1 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
                       <h3 className='font-bold text-2xl my-6'>Clouth support</h3>
-                      <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
+                      <p className='text-gray-600 text-xl'>We've extended a helping hand to Ethiopia by sending essential clothing items.
+                       This gesture aims to 
+                      provide comfort and support to those in need, fostering a sense of community and compassion in challenging times.
+                      <br/>
+                      <br/>
+                      </p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
                       <p className='flex items-center text-indigo-600'>Read more <ArrowSmRightIcon className='w-5 ml-2' /></p>
@@ -37,20 +42,11 @@ const Support = () => {
                   <div className='p-18'>
                       <img src={school_support} className='w-31 p-1 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
                       <h3 className='font-bold text-2xl my-6'>Learning material support</h3>
-                      <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
+                      <p className='text-gray-600 text-xl'>We've sent crucial learning materials to Ethiopian school children in desperate need. Our initiative aims to empower young minds, bridging educational gaps and fostering a brighter 
+                      future for these students facing challenging circumstances.</p>
                   </div>
                   <div className='bg-slate-100 pl-8 py-4'>
                       <p className='flex items-center text-indigo-600'>Read more <ArrowSmRightIcon className='w-5 ml-2' /></p>
-                  </div>
-              </div>
-              <div className='bg-white rounded-xl shadow-2xl'>
-                  <div className='p-8'>
-                      <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                      <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
-                      <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
-                  </div>
-                  <div className='bg-slate-100 pl-8 py-4'>
-                      <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
                   </div>
               </div>
           </div>

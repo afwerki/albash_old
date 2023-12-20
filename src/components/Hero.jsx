@@ -8,6 +8,7 @@ import {
 
 import bgImg from '../assets/two_girls_one_boy.jpeg'
 
+
 const Hero = () => {
   return (
     <div name='home' className='w-full h-screen bg-zinc-200 flex flex-col justify-between'>
