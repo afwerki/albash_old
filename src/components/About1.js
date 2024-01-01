@@ -1,24 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
+
 import two_girls_one_boy from "../assets/two_girls_one_boy.jpeg"
 
 
 const About1 = () => {
+
   return (
     <>
-      <div class="py-16 bg-white">  
-  <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-      <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-        <div class="md:5/12 lg:w-5/12">
-          <img src={two_girls_one_boy} alt="image" loading="lazy" width="" height=""/>
+    <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div class="flex flex-col lg:flex-row justify-between gap-8">
+                <div class="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4">About Us</h1>
+                    <p class="font-normal text-base leading-6 text-gray-600 dark:text-white">It is a long established fact that a reader will 
+                    be distracted by the readable content of a page when looking at its layout. The point 
+                    of using Lorem Ipsum.In the first place we have granted to God, and by this our 
+                    present charter confirmed for us and our heirs forever that the English Church shall be free,
+                     and shall have her rights entire, and her liberties inviolate; and we will that it be 
+                     thus observed; which is apparent from</p>
+                </div>
+                <div class="w-full lg:w-8/12">
+                    <img class="w-full h-full" src="https://i.ibb.co/FhgPJt8/Rectangle-116.png" alt="A group of People" />
+                </div>
+            </div>
+    
+            <div class="flex lg:flex-row flex-col justify-between gap-8 pt-12">
+                <div class="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4">Our Story</h1>
+                    <p class="font-normal text-base leading-6 text-gray-600 dark:text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
+                </div>
+            </div>
         </div>
-        <div class="md:7/12 lg:w-6/12">
-          <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">About us</h2>
-          <p class="text-2xl mt-6 text-gray-600">We are london based chairty</p>
-          <p class=" text-2xl mt-4 text-gray-600"> Nobis imus nesciunt dictaiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspm aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspobis minus voluptatibus pariatur digni Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
-        </div>
-      </div>
-  </div>
-</div>
+    
     </>
   );
 };

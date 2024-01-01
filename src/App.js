@@ -6,7 +6,8 @@ import Hero from './components/Hero3';
 import Navbar from './components/Navbar'
 import Contact from './components/Contact';
 import Support from './components/Support'
-import ReadMoreComponent from './components/ReadMoreComponent';
+import Blog1 from './components/Blog1';
+import Carosel from './components/Carosel';
 
 function App() {
   return (
@@ -16,10 +17,7 @@ function App() {
       <About/>
       <Aim />
       <Support />
-      <ReadMoreComponent/>
       <Contact/>
-
-  
       <Footer />
     </>
   );
