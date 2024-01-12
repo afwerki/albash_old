@@ -1,0 +1,33 @@
+for read more 
+https://codesandbox.io/p/sandbox/react-js-read-more-read-less-forked-xl96ck?file=%2Fsrc%2Findex.js%3A17%2C14
+
+About us:
+**About Us: Albash Ethiopia**
+
+Alabsh Ethiopia is a recently established charitable organization committed to transforming the lives of underprivileged children in Ethiopia by providing them with the essential learning materials they need to thrive academically. Our mission is rooted in the belief that education is a powerful tool for breaking the cycle of poverty, and every child deserves the opportunity to learn and grow.
+
+**Our Vision: Building Futures through Education**
+
+At Albash Ethiopia, we envision a future where every child in Ethiopia has access to quality education, regardless of their socio-economic background. We believe that education is the key to unlocking a brighter and more prosperous future for individuals, families, and communities. By focusing on providing learning materials, we aim to address a critical barrier that many children face in pursuing their education.
+
+**The Challenge: Access to Learning Materials**
+
+In Ethiopia, many children lack access to basic learning materials, hindering their ability to fully engage in the educational process. Limited resources, poverty, and other socio-economic factors often force families to prioritize essential needs over school supplies. This results in children attending schools without the necessary tools, hindering their academic progress and limiting their potential.
+
+**Our Approach: Providing Learning Materials for All**
+
+Albash  Ethiopia is dedicated to bridging the gap by supplying children with the learning materials they need to succeed. From textbooks and notebooks to pens and educational resources, we strive to equip students with the tools that can make a significant impact on their academic journey. By ensuring that every child has access to these fundamental materials, we are empowering them to actively participate in their education and realize their full potential.
+
+**How We Work: Collaborative Partnerships and Community Involvement**
+
+To achieve our goals, Albash  Ethiopia collaborates with local communities, schools, and other stakeholders. We believe in the power of community-driven initiatives and work closely with educators and parents to identify the specific needs of each child. Through this collaborative approach, we can tailor our support to address the unique challenges faced by different communities.
+
+**Impact and Success Stories**
+
+Since our inception, Albash Ethiopia has witnessed transformative changes in the lives of the children we support. Improved attendance, increased academic performance, and a renewed enthusiasm for learning are just some of the positive outcomes we have observed. By investing in education, we are sowing the seeds for a future where these children can break free from the cycle of poverty and contribute meaningfully to society.
+
+**Join Us in Empowering Lives**
+
+Albash  Ethiopia invites individuals, businesses, and organizations to join us in making a difference. Whether through monetary donations, in-kind contributions, or volunteering your time and skills, your support can help us reach more children and create lasting change. Together, we can build a future where every child in Ethiopia has the tools they need to succeed in their educational journey and beyond.
+
+Albash  Ethiopia is more than a charity; it is a movement dedicated to building a brighter future for the children of Ethiopia through the power of education. Join us in empowering lives and shaping a better tomorrow.
